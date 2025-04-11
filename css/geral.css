@@ -1,7 +1,7 @@
 html {
-    background-color: rgb(192, 225, 255);
-    margin: 0;
-    padding: 0;   
+  background-color: rgb(192, 225, 255);
+  margin: 0;
+  padding: 0;   
 }
 body {
     margin: 0;
@@ -9,7 +9,7 @@ body {
     font-family: 'Oliver', sans-serif;
     width: auto;
   }
-  #corpo {
+#corpo {
     margin: 0 auto;
     padding: 10px;
     background-color: rgb(255, 255, 255);
@@ -21,7 +21,6 @@ body {
     height: 100px;
     background-color: #ccf8c8;
     text-align: center;
-    line-height: 100px;
     font-size: 24px;
     font-weight: bold;
   }
@@ -64,3 +63,18 @@ body {
     
     background-color: #ccf8c8;
   }
+  .imagem-bloco {
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+#menu {
+  display: flex;
+  text-align: center;
+}
+
+#botão1, #botão2, #botão3, #botão4, #botão5 {
+  flex: 5;
+}
